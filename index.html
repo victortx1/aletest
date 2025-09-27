@@ -178,6 +178,80 @@
       #contato p { font-size: 1rem !important; }
       #contato div { flex-direction: column !important; }
     }
+
+    /* ===== SERVIÇOS CALC ===== */
+      .form-container {
+    max-width: 400px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+  }
+
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #001aff; /* cor destaque da FPS */
+  }
+
+  .form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .form-container input,
+  .form-container select,
+  .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+
+  .form-container textarea {
+    resize: none;
+  }
+
+  .form-container button {
+    width: 100%;
+    padding: 12px;
+    background: #001aff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .form-container button:hover {
+    background: #1b0163;
+  }
+
+  /* ===== REDES SOCIAIS ===== */
+  .contatos-diretos {
+  margin-top: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.contatos-diretos a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.contatos-diretos a:hover {
+  text-decoration: underline;
+}
+
+    
   </style>
 </head>
 <body>
@@ -390,37 +464,76 @@
     </div>
   </section>
 
+
+<script>
+function enviarWhatsApp() {
+  let nome = document.getElementById("nome").value;
+  let telefone = document.getElementById("telefone").value;
+  let servico = document.getElementById("servico").value;
+  let descricao = document.getElementById("descricao").value;
+
+  let msg = `Olá, meu nome é ${nome}.
+Telefone: ${telefone}
+Tipo de serviço: ${servico}
+Descrição: ${descricao}`;
+
+  let url = "https://wa.me/557381263235?text=" + encodeURIComponent(msg);
+  window.open(url, '_blank');
+}
+</script>
+
 <!-- ===== CONTATO ===== -->
-<section id="contato" style="padding: 30px 20px; background: linear-gradient(135deg, #000000, #00aeff, #000000); color: white; font-family: Arial, sans-serif;">
-  
-  <!-- Título -->
+<section id="contato" style="padding: 30px 20px; background: linear-gradient(135deg,#000080,#00aeff,#001aff); color: white;">
+  <!-- ===== Título ===== -->
   <div style="text-align: center; margin-bottom: 40px;">
-    <h2 style="font-size: 120px; margin: 0; text-transform: uppercase; letter-spacing: 3px;">Contato</h2>
-    <p style="font-size: 70px; margin-top: 10px; color: #000000;">Entre em contato conosco e peça seu orçamento</p>
+    <h2 style="font-size: 32px; text-transform: uppercase; letter-spacing: 2px;">Contato</h2>
+    <p style="font-size: 18px;">Entre em contato conosco e peça seu orçamento</p>
   </div>
 
-  <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 40px; max-width: 1000px; margin: auto;">
-    
-    <!-- LADO ESQUERDO: FORMULÁRIO -->
-    <div style="flex: 1; min-width: 100px; background: rgba(255,255,255,0.1); padding: 20px; border-radius: 40px;">
-      <h3 style="margin-bottom: 15px;">Enviar Mensagem</h3>
-<form action="https://formsubmit.co/victoj796@gmail.com" method="POST"" style="display: flex; flex-direction: column; gap: 10px;">
-        <input type="text" name="nome" placeholder="Seu Nome" required style="padding: 12px; border: none; border-radius: 6px;">
-        <input type="email" name="email" placeholder="Seu E-mail" required style="padding: 12px; border: none; border-radius: 6px;">
-        <textarea name="mensagem" rows="4" placeholder="Escreva sua mensagem..." required style="padding: 12px; border: none; border-radius: 6px;"></textarea>
-        <button type="submit" style="background: #25D366; color: white; padding: 12px; border: none; border-radius: 6px; font-size: 16px; cursor: pointer;">Enviar</button>
-      </form>
-    </div>
+  <!-- ===== Formulário ===== -->
+  <div style="max-width: 500px; margin: auto; background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px;">
+    <form id="orcamentoForm">
+      <label>Nome:</label>
+      <input type="text" id="nome" required style="width:100%;padding:10px;margin:10px 0;border-radius:8px;border:1px solid #ccc;">
 
-    <!-- LADO DIREITO: INFORMAÇÕES -->
-    <div style="flex: 1; min-width: 300px; display: flex; flex-direction: column; justify-content: center; gap: 20px;">
-      <h3 style="margin-bottom: 15px;">Entrar em Contato</h3>
-      <p><strong>📍 Localização:</strong> Teixeira de Freitas - BA</p>
-      <p><strong>📱 WhatsApp:</strong> <a href="https://wa.me/557381263235?text=Olá! Gostaria de solicitar um orçamento com a FPS Engenharia." target="_blank" style="color: #25D366; font-weight: bold;">(73) 8126-3235</a></p>
-    </div>
+      <label>Telefone:</label>
+      <input type="text" id="telefone" required style="width:100%;padding:10px;margin:10px 0;border-radius:8px;border:1px solid #ccc;">
 
+      <label>Tipo de serviço:</label>
+      <select id="servico" style="width:100%;padding:10px;margin:10px 0;border-radius:8px;border:1px solid #ccc;">
+        <option value="Residencial">Residencial</option>
+        <option value="Comercial">Comercial</option>
+        <option value="Industrial">Industrial</option>
+      </select>
+
+      <label>Explique o que deseja:</label>
+      <textarea id="descricao" rows="5" placeholder="Exemplo: Instalação de 15 tomadas em uma casa grande de 2 andares, troca de 3 disjuntores no quadro de energia, revisão elétrica completa em apartamento pequeno, instalação de chuveiro 220V..." 
+        style="width:100%;padding:10px;margin:10px 0;border-radius:8px;border:1px solid #ccc;"></textarea>
+
+      <button type="button" onclick="enviarWhatsApp()" 
+        style="width:100%;padding:12px;background:#001aff;color:white;font-size:16px;border:none;border-radius:8px;cursor:pointer;">
+        Enviar para WhatsApp
+      </button>
+    </form>
   </div>
+
+
+<!-- Redes sociais -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<div style="display:inline-flex;align-items:center;background:#0400ff;padding:25px 30px;border-radius:30px;color:#fff;font-family:Arial,sans-serif;font-size:40px;">
+  Siga-nos no
+  <a href="https://www.instagram.com/fps.engenharia1?utm_source=ig_web_button_share_sheet&igsh=d2Uwd3BkamNhMzBw" target="_blank" style="margin-left:16px;color:#fff;font-size:40px;text-decoration:none;">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+  <a href="https://wa.me/557381263235" target="_blank" style="margin-left:10px;color:#fff;font-size:40px;text-decoration:none;">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+</div>
+
+
 </section>
+
 
 
   <!-- ===== FOOTER ===== -->
