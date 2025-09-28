@@ -6,6 +6,38 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>FPS Engenharia</title>
   <style>
+
+.brilhante {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  background: linear-gradient(
+    90deg,
+    #0400ff,
+    #00ffff,
+    #0400ff,
+    #00ffff,
+    #0400ff,
+    #00ffff,
+    #0400ff
+  );
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: brilho 6s infinite linear;
+}
+
+@keyframes brilho {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
     :root {
       --accent:#001aff;
       --accent-2:#1b0163;
@@ -251,6 +283,58 @@
   text-decoration: underline;
 }
 
+.electric-border {
+  position: relative;
+  max-width: 500px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+  box-shadow: 0 0 40px #017785, 0 0 40px #0026ff, 0 0 60px #017785;
+  animation: flicker 1s infinite alternate;
+}
+
+@keyframes flicker {
+  0% {
+    box-shadow: 0 0 5px #0077ff, 0 0 10px #0026ff, 0 0 20px #0077ff;
+  }
+  50% {
+    box-shadow: 0 0 20px #0077ff, 0 0 40px #0026ff, 0 0 60px #0077ff;
+  }
+  100% {
+    box-shadow: 0 0 10px #0026ff, 0 0 30px #0077ff, 0 0 50px #0077ff;
+  }
+}
+
+/* Inputs */
+.electric-border input,
+.electric-border select,
+.electric-border textarea,
+.electric-border button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Botão */
+.electric-border button {
+  background: #001aff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.electric-border button:hover {
+  background: #0044ff;
+  box-shadow: 0 0 10px #00e5ff, 0 0 20px #0077ff;
+}
+
+
     
   </style>
 </head>
@@ -273,10 +357,12 @@
 
   <!-- ===== HEADER ===== -->
   <header>
-    <h1>FPS Engenharia</h1>
+    <h1 class="brilhante">FPS Engenharia</h1>
     <p>Soluções elétricas em casa e empresa</p>
     <a href="#contato">Fale Conosco</a>
   </header>
+
+  
 
   <!-- ===== GALERIA ===== -->
   <div class="galeria">
@@ -392,7 +478,6 @@
     </div>
   </section>
 
-
   <!-- ===== SERVIÇOS ===== -->
   <section id="servicos" style="padding: 60px 20px; color: #ffffff; text-align: center; background: url('https://images.unsplash.com/photo-1581091870622-8c95f0c79a3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover; position: relative;">
     <div style="background: rgba(0,0,0,0.65); padding: 40px; border-radius: 12px;">
@@ -490,32 +575,30 @@ Descrição: ${descricao}`;
     <p style="font-size: 18px;">Entre em contato conosco e peça seu orçamento</p>
   </div>
 
-  <!-- ===== Formulário ===== -->
-  <div style="max-width: 500px; margin: auto; background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px;">
-    <form id="orcamentoForm">
-      <label>Nome:</label>
-      <input type="text" id="nome" required style="width:100%;padding:10px;margin:10px 0;border-radius:8px;border:1px solid #ccc;">
+ <!-- ===== Formulário com Borda Elétrica ===== -->
+<div class="electric-border">
+  <form id="orcamentoForm">
+    <label>Nome:</label>
+    <input type="text" id="nome" required>
 
-      <label>Telefone:</label>
-      <input type="text" id="telefone" required style="width:100%;padding:10px;margin:10px 0;border-radius:8px;border:1px solid #ccc;">
+    <label>Telefone:</label>
+    <input type="text" id="telefone" required>
 
-      <label>Tipo de serviço:</label>
-      <select id="servico" style="width:100%;padding:10px;margin:10px 0;border-radius:8px;border:1px solid #ccc;">
-        <option value="Residencial">Residencial</option>
-        <option value="Comercial">Comercial</option>
-        <option value="Industrial">Industrial</option>
-      </select>
+    <label>Tipo de serviço:</label>
+    <select id="servico" required>
+      <option value="Residencial">Residencial</option>
+      <option value="Comercial">Comercial</option>
+      <option value="Industrial">Industrial</option>
+    </select>
 
-      <label>Explique o que deseja:</label>
-      <textarea id="descricao" rows="5" placeholder="Exemplo: Instalação de 15 tomadas em uma casa grande de 2 andares, troca de 3 disjuntores no quadro de energia, revisão elétrica completa em apartamento pequeno, instalação de chuveiro 220V..." 
-        style="width:100%;padding:10px;margin:10px 0;border-radius:8px;border:1px solid #ccc;"></textarea>
+    <label>Explique o que deseja:</label>
+    <textarea id="descricao" rows="5" placeholder="Exemplo: Instalação de 15 tomadas em uma casa grande de 2 andares, troca de 3 disjuntores no quadro de energia, revisão elétrica completa em apartamento pequeno, instalação de chuveiro 220V..."></textarea>
 
-      <button type="button" onclick="enviarWhatsApp()" 
-        style="width:100%;padding:12px;background:#001aff;color:white;font-size:16px;border:none;border-radius:8px;cursor:pointer;">
-        Enviar para WhatsApp
-      </button>
-    </form>
-  </div>
+    <button type="button" onclick="enviarWhatsApp()">
+      Enviar para WhatsApp
+    </button>
+  </form>
+</div>
 
 
 <!-- Redes sociais -->
