@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>FPS Engenharia</title>
+  <title>FPS Engenharia⚡</title>
   <style>
 
 
@@ -47,30 +47,42 @@
 
     <!-- ===== COMEÇO DO SITE ===== -->
   <header>
-    <h1 class="brilhante">FPS Engenharia</h1>
+    <h1 class="brilhante1">FPS Engenharia</h1>
     <p>Soluções elétricas para casas e empresas</p>
-    <a href="#contato">Fale Conosco</a>
+    <a href="#contato">Fale Conosco</a> 
   </header>
+
+
+<div class="titulo-natal">
+  <h1 class="titulo">
+  </h1>
+  <img src="./tocanoel.png" alt="Chapéu de Natal" class="chapeu-natal">
+</div>
+
 
   
 
  <div class="carrossel"> 
     <div class="carrossel-track"> 
+        <img src="./papainoel.jpeg" alt="">
         <img src="imagem/Imagem do WhatsApp de 2025-09-27 à(s) 18.58.56_160de768.jpg" alt=""> 
         <img src="imagem/Imagem do WhatsApp de 2025-09-27 à(s) 18.59.13_7c194b2f.jpg" alt="">
         <img src="imagem/Imagem do WhatsApp de 2025-09-27 à(s) 18.59.27_afc639ce.jpg" alt="">
         <img src="imagem/Imagem do WhatsApp de 2025-09-27 à(s) 18.59.42_9411d4ae.jpg" alt="">
         <img src="imagem/Imagem do WhatsApp de 2025-09-27 à(s) 19.00.09_0d937c57.jpg" alt="">
+        <img src="./papainoel.jpeg" alt="">
         <img src="imagem/Imagem do WhatsApp de 2025-09-27 à(s) 19.00.34_b70993a9.jpg" alt="">
         <img src="imagem/Imagem do WhatsApp de 2025-09-27 à(s) 19.00.51_be6305bf.jpg" alt="">
         <img src="imagem/Imagem do WhatsApp de 2025-09-27 à(s) 19.01.42_05e7304b.jpg" alt="">
         <img src="imagem/Imagem do WhatsApp de 2025-09-19 à(s) 18.17.30_23c98614.jpg" alt="">
         <img src="imagem/Imagem do WhatsApp de 2025-09-19 à(s) 18.17.30_d7eb0656.jpg" alt=""> 
+        <img src="./papainoel.jpeg" alt="">
         <img src="imagem/Imagem do WhatsApp de 2025-09-19 à(s) 18.17.31_d66d948c.jpg" alt=""> 
         <img src="imagem/Imagem do WhatsApp de 2025-09-19 à(s) 18.17.32_aaa490f2.jpg" alt=""> 
         <img src="imagem/Imagem do WhatsApp de 2025-09-19 à(s) 18.17.32_e20fc95c.jpg" alt=""> 
         <img src="imagem/Imagem do WhatsApp de 2025-09-19 à(s) 18.17.33_25fba686.jpg" alt=""> <!-- duplicar para efeito infinito --> 
-        <img src="imagem/Imagem do WhatsApp de 2025-09-19 à(s) 18.17.32_bf3b7c42.jpg" alt=""> 
+        <img src="imagem/Imagem do WhatsApp de 2025-09-19 à(s) 18.17.32_bf3b7c42.jpg" alt="">
+        <img src="./papainoel.jpeg" alt=""> 
         <img src="imagem/Imagem do WhatsApp de 2025-09-27 à(s) 23.24.36_4929a78e.jpg" alt=""> 
         <img src="imagem/Imagem do WhatsApp de 2025-09-27 à(s) 23.24.32_8c7babb3.jpg" alt="">  
     </div> 
@@ -80,7 +92,7 @@
   <section id="sobre" class="sobre">
     <div class="sobre-container">
       <div class="sobre-texto">
-        <h2>FPS Engenharia</h2>
+        <h1 class="brilhante2">FPS Engenharia</h1>
         <p>
           A FPS Engenharia é especializada em soluções elétricas residenciais,
           comerciais e industriais. Nossa missão é levar energia com segurança,
@@ -97,14 +109,14 @@
         </a>
       </div>
       <div class="sobre-imagem">
-        <img src="ChatGPT Image 19 de set. de 2025, 18_54_56.png" alt="FPS Engenharia">
+        <img src="./natallogofps.png" alt="FPS Engenharia">
       </div>
     </div>
   </section>
 
     <section id="video" class="video">
-      <h1 class="brilhante">Apresentação FPS Engenharia</h1>
-      <video controls width="70%">
+      <h1 class=><h1 class="brilhante2">Apresentação FPS Engenharia</h1>
+      <video controls width="100%">
         <source src="apresentacao-fps.mp4" type="video/mp4" />
         Seu navegador não suporta vídeos.
       </video>
@@ -112,9 +124,9 @@
 
     
 
-<section style="background: linear-gradient(135deg, #005c97, #363795); padding: 60px 20px; color: white; text-align: center;">
-  <h1 style="font-size: 2.5rem; margin-bottom: 10px;">Nosso Portfólio de Serviços</h1>
-  <p style="color: #cce7ff; max-width: 600px; margin: 0 auto 40px;">
+<section style="background: linear-gradient(135deg, #ffffff, #00c3ff); padding: 60px 20px; color: #000000 ; text-align: center;">
+  <h1 style="font-size: 2.5rem; margin-bottom: 10px;"></h1><h1 class="brilhante2">Nosso Portfólio de Serviços</h1>
+  <p style="color: #000000; max-width: 600px; margin: 0 auto 40px;">
     Veja alguns dos trabalhos realizados pela FPS Engenharia com qualidade, segurança e eficiência.
   </p>
 
@@ -162,9 +174,9 @@
   </section>
 
   <!-- ===== SERVIÇOS ===== -->
-  <section id="servicos" style="padding: 60px 20px; color: #ffffff; text-align: center; background: url('https://images.unsplash.com/photo-1581091870622-8c95f0c79a3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover; position: relative;">
-    <div style="background: rgba(0,0,0,0.65); padding: 40px; border-radius: 12px;">
-      <h2 style="font-size: 2.5em; margin-bottom: 15px; color: #00b7ff;">⚡ Nossos Serviços</h2>
+  <section id="servicos" style="padding: 60px 20px; color: #000000; text-align: center;background: linear-gradient(135deg, #ffffff, #00c3ff);  no-repeat center center/cover; position: relative;">
+    <div style="Background: linear-gradient(135deg,#ffffff,#00c3ff,#00c3ff); padding: 40px; border-radius: 12px;">
+      <h2 style="font-size: 2.5em; margin-bottom: 15px; color: #000000;"><h1 class="brilhante4">⚡ Nossos Serviços</h1>
       <p style="font-size: 1.2em; max-width: 800px; margin: 0 auto 40px;">
         Oferecemos soluções completas em elétrica para residências, comércios e indústrias.
       </p>
@@ -187,38 +199,34 @@
       </div>
 
       <div style="margin-top: 40px;">
-        <a href="#contato" style="background: linear-gradient(45deg, #0011ff, #00e1ff); color: #000000; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 1.2em; box-shadow: 0 4px 15px rgba(0,0,0,0.3); transition: 0.3s;">
+        <a href="#contato" style="background: linear-gradient(45deg, #ffffff, #00eeff, #ffffff); color: #000000; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 1.2em; box-shadow: 0 4px 15px rgba(0,0,0,0.3); transition: 0.3s;">
           🚀 Solicitar Orçamento
         </a>
       </div>
     </div>
   </section>
 
-
-<script>
-function enviarWhatsApp() {
-  let nome = document.getElementById("nome").value;
-  let telefone = document.getElementById("telefone").value;
-  let servico = document.getElementById("servico").value;
-  let descricao = document.getElementById("descricao").value;
-
-  let msg = `Olá, meu nome é ${nome}.
-Telefone: ${telefone}
-Tipo de serviço: ${servico}
-Descrição: ${descricao}`;
-
-  let url = "https://wa.me/557381263235?text=" + encodeURIComponent(msg);
-  window.open(url, '_blank');
-}
-</script>
+ 
+ 
 
 <!-- ===== CONTATO ===== -->
-<section id="contato" style="padding: 30px 20px; background: linear-gradient(135deg,#000080,#00aeff,#001aff); color: white;">
+<section id="contato" style="padding: 30px 20px; background: linear-gradient(135deg, #6ee7fc, #00c3ff); color: rgb(0, 0, 0);">
   <!-- ===== Título ===== -->
-  <div style="text-align: center; margin-bottom: 40px;">
+  <div style="text-align: center; margin-bottom: 40px;"> 
     <h2 style="font-size: 32px; text-transform: uppercase; letter-spacing: 2px;">Contato</h2>
-    <p style="font-size: 18px;">Entre em contato conosco e peça seu orçamento</p>
+    <p style="font-size: 18px;">Entre em contato conosco e faça seu orçamento</p>
   </div>
+   <!-- ANIMAÇÃO DE NEVE -->
+<div class="neve"></div>
+
+<!-- PAPAI NOEL -->
+<img src="./dedopapainoel.png" alt="Papai Noel" class="natal-papai">
+
+<!-- BONECO DE NEVE -->
+<div class="boneco-luz"></div>
+<img src="./bonecodeneve.png" alt="Boneco de Neve" class="natal-boneco">
+
+
 
  <!-- ===== Formulário com Borda Elétrica ===== -->
 <div class="electric-border">
@@ -245,17 +253,16 @@ Descrição: ${descricao}`;
   </form>
 </div>
 
-
 </section>
 
 
 
  <footer>
-  <p>© 2025 FPS Engenharia — Todos os direitos reservados.</p>
+  <p>© 2025 FPS Engenharia — Feliz Natal 🎄⛄.</p>
 
   <div class="footer-extra">
 
-    <p>💬 Desenvolvido por <strong>FPS</strong></p>
+    <p>💬 Desenvolvido por <strong>Delarsits</strong></p>
     <p>🔒 Site seguro com <strong>HTTPS</strong></p>
   </div>
 

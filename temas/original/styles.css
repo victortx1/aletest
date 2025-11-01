@@ -132,7 +132,7 @@ html, body { height: 100%; }
 .carrossel { 
     overflow: hidden; 
     width: 100%; 
-    background: #000; /* pode trocar cor */ 
+    background: linear-gradient(135deg, #ffffff, #00c3ff);
     padding: 20px 0; 
 }
 
