@@ -23,13 +23,8 @@
 <body>
 
 <div class="navbar">
-  <!-- Menu -->
-  <nav class="menu">
-    <a href="#sobre" class="menu-item" title="Perfil"><i class="fa-solid fa-user"></i></a>
-    <a href="#galeria-fotos" class="menu-item" title="Novo"><i class="fa-solid fa-plus"></i></a>
-    <a href="#servicos" class="menu-item" title="Config"><i class="fa-solid fa-gear"></i></a>
-    <a href="#contato" class="menu-item" title="Chat"><i class="fa-solid fa-comment"></i></a>
   </nav>
+  
 
   <!-- Redes sociais no mesmo container -->
   <div class="redes-sociais">
@@ -42,7 +37,6 @@
     </a>
   </div>
 </div>
-
 
 
     <!-- ===== COMEÇO DO SITE ===== -->
@@ -268,10 +262,50 @@
 </footer>
 
 
+ <!-- Notificação de atualização -->
+<div id="notificacao-atualizacao" style="
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #222;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  display: none;
+  z-index: 9999;
+">
+  ⚙️ Atualização programada: o site passará por manutenção hoje às <b>1h da manhã</b>.
+</div>
 
-    <script src="https://cdn.botpress.cloud/webchat/v3.3/inject.js"></script>
-<script src="https://files.bpcontent.cloud/2025/11/01/01/20251101010919-RMICZMG6.js" defer></script>
-    
+<script>
+  // Mostra a notificação ao carregar o site
+  window.addEventListener('load', () => {
+    const notif = document.getElementById('notificacao-atualizacao');
+    notif.style.display = 'block';
+    notif.style.opacity = '0';
+    notif.style.transition = 'opacity 0.5s ease';
+
+    setTimeout(() => notif.style.opacity = '1', 100);
+
+    // Some depois de 10 segundos
+    setTimeout(() => {
+      notif.style.opacity = '0';
+      setTimeout(() => notif.style.display = 'none', 500);
+    }, 10000);
+  });
+</script>
+
+
+<script>
+  // Mostra o pop-up 5 segundos após abrir o site
+  setTimeout(() => {
+    document.getElementById('popup-avaliacao').style.display = 'block';
+  }, 5000);
+</script>
+
 
 
   <script>
