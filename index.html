@@ -251,7 +251,7 @@
       <h3>Siga-nos</h3>
       <div class="social-icons">
         <a href="https://www.instagram.com/fps.engenharia1"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram"></a>
-        <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn"></a>
+        <a href="https://www.linkedin.com/in/fps-engenharia-a16332397/"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LedInink"></a>
       </div>
     </div>
   </div>
@@ -262,41 +262,50 @@
 </footer>
 
 
- <!-- Notificação de atualização -->
-<div id="notificacao-atualizacao" style="
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #222;
-  color: #fff;
-  padding: 15px 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-  font-family: Arial, sans-serif;
-  font-size: 15px;
-  display: none;
-  z-index: 9999;
+ <!-- POP-UP DE AVALIAÇÃO FPS ENGENHARIA -->
+<div id="popup-avaliacao" style="
+  display:none;
+  position:fixed;
+  bottom:25px;
+  right:25px;
+  background:#fff;
+  border:2px solid #007bff;
+  border-radius:16px;
+  box-shadow:0 6px 15px rgba(0,0,0,0.25);
+  padding:18px;
+  width:290px;
+  text-align:center;
+  z-index:9999;
+  font-family:'Poppins', sans-serif;
 ">
-  ⚙️ Atualização programada: o site passará por manutenção hoje às <b>1h da manhã</b>.
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="width:90px;margin-bottom:10px;">
+  <h3 style="margin:0;color:#007bff;font-size:18px;">Avalie a FPS Engenharia!</h3>
+  <p style="font-size:14px;color:#333;margin:8px 0 12px;">
+    Sua opinião ajuda nossa empresa a crescer 💙<br>
+    Clique abaixo e deixe sua avaliação no Google!
+  </p>
+  <a href="https://g.page/r/CbxDkQ17Nzm-EAI/review" target="_blank" style="
+    background:#007bff;
+    color:white;
+    padding:10px 16px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+    display:inline-block;
+  ">⭐ Avaliar Agora</a>
+  <p style="font-size:12px;color:#666;margin-top:10px;">FPS Engenharia © 2025</p>
+  <span onclick="document.getElementById('popup-avaliacao').style.display='none';" 
+        style="position:absolute;top:8px;right:12px;cursor:pointer;font-weight:bold;color:#007bff;">✖</span>
 </div>
 
 <script>
-  // Mostra a notificação ao carregar o site
-  window.addEventListener('load', () => {
-    const notif = document.getElementById('notificacao-atualizacao');
-    notif.style.display = 'block';
-    notif.style.opacity = '0';
-    notif.style.transition = 'opacity 0.5s ease';
-
-    setTimeout(() => notif.style.opacity = '1', 100);
-
-    // Some depois de 10 segundos
-    setTimeout(() => {
-      notif.style.opacity = '0';
-      setTimeout(() => notif.style.display = 'none', 500);
-    }, 10000);
-  });
+  // Mostra o pop-up 5 segundos após abrir o site
+  setTimeout(() => {
+    document.getElementById('popup-avaliacao').style.display = 'block';
+  }, 5000);
 </script>
+
 
 
 <script>
