@@ -286,7 +286,7 @@ html, body { height: 100%; }
     /* ===== HEADER ===== */
     header {
       height:40vh;
-      background:url('ChatGPT Image 19 de set. de 2025, 18_54_56.png') center/cover no-repeat;
+      background:url('/Consciência\ Negra.png') center/cover no-repeat;
       display:flex;
       flex-direction:column;
       justify-content:center;
@@ -812,4 +812,20 @@ html, body { height: 100%; }
   color: #ccc;
 }
 
+
+.logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo-fps {
+  width: 220px;        /* Ajusta o tamanho do logo */
+  max-width: 90%;      /* Para não estourar no celular */
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.4)); /* igual ao efeito da primeira imagem */
+}
 
