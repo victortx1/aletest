@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>FPS Engenharia⚡</title>
+  <title>A FPS deseja a todos um Feliz Natal 🎄🎁</title>
   <style>
 
 
@@ -24,16 +24,11 @@
 
 <div class="navbar">
   <!-- Menu -->
-  <nav class="menu">
-    <a href="#sobre" class="menu-item" title="Perfil"><i class="fa-solid fa-user"></i></a>
-    <a href="#galeria-fotos" class="menu-item" title="Novo"><i class="fa-solid fa-plus"></i></a>
-    <a href="#servicos" class="menu-item" title="Config"><i class="fa-solid fa-gear"></i></a>
-    <a href="#contato" class="menu-item" title="Chat"><i class="fa-solid fa-comment"></i></a>
   </nav>
 
   <!-- Redes sociais no mesmo container -->
   <div class="redes-sociais">
-    Siga-nos no
+    🎄Siga-nos no
     <a href="https://www.instagram.com/fps.engenharia1" target="_blank">
       <i class="fa-brands fa-instagram"></i>
     </a>
@@ -48,16 +43,10 @@
     <!-- ===== COMEÇO DO SITE ===== -->
   <header>
     <h1 class="brilhante1">FPS Engenharia</h1>
-    <p>Soluções elétricas para casas e empresas</p>
-    <a href="#contato">Fale Conosco</a> 
+    <p>FPS Engenharia, iluminando o seu Natal com segurança e qualidade.</p>
+    <a href="#contato">Fale Conosco ⛄</a> 
   </header>
 
-
-<div class="titulo-natal">
-  <h1 class="titulo">
-  </h1>
-  <img src="./tocanoel.png" alt="Chapéu de Natal" class="chapeu-natal">
-</div>
 
 
   
@@ -105,11 +94,11 @@
         <a class="btn-whatsapp" 
            href="https://wa.me/557381263235?text=Olá! Gostaria de solicitar um orçamento com a FPS Engenharia." 
            target="_blank">
-          Saiba Mais
+          Saiba Mais 🎄
         </a>
       </div>
       <div class="sobre-imagem">
-        <img src="./natallogofps.png" alt="FPS Engenharia">
+        <img src="./feliznatalsobre.png" alt="FPS Engenharia">
       </div>
     </div>
   </section>
@@ -127,7 +116,7 @@
 <section style="background: linear-gradient(135deg, #ffffff, #00c3ff); padding: 60px 20px; color: #000000 ; text-align: center;">
   <h1 style="font-size: 2.5rem; margin-bottom: 10px;"></h1><h1 class="brilhante2">Nosso Portfólio de Serviços</h1>
   <p style="color: #000000; max-width: 600px; margin: 0 auto 40px;">
-    Veja alguns dos trabalhos realizados pela FPS Engenharia com qualidade, segurança e eficiência.
+    ⛄Veja alguns dos trabalhos realizados pela FPS Engenharia com qualidade, segurança e eficiência.🎄🎁
   </p>
 
   <div class="carousel-container">
@@ -176,7 +165,7 @@
   <!-- ===== SERVIÇOS ===== -->
   <section id="servicos" style="padding: 60px 20px; color: #000000; text-align: center;background: linear-gradient(135deg, #ffffff, #00c3ff);  no-repeat center center/cover; position: relative;">
     <div style="Background: linear-gradient(135deg,#ffffff,#00c3ff,#00c3ff); padding: 40px; border-radius: 12px;">
-      <h2 style="font-size: 2.5em; margin-bottom: 15px; color: #000000;"><h1 class="brilhante4">⚡ Nossos Serviços</h1>
+      <h2 style="font-size: 2.5em; margin-bottom: 15px; color: #000000;"><h1 class="brilhante4">⚡ Nossos Serviços 🎄</h1>
       <p style="font-size: 1.2em; max-width: 800px; margin: 0 auto 40px;">
         Oferecemos soluções completas em elétrica para residências, comércios e indústrias.
       </p>
@@ -200,7 +189,7 @@
 
       <div style="margin-top: 40px;">
         <a href="#contato" style="background: linear-gradient(45deg, #ffffff, #00eeff, #ffffff); color: #000000; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 1.2em; box-shadow: 0 4px 15px rgba(0,0,0,0.3); transition: 0.3s;">
-          🚀 Solicitar Orçamento
+          🌟 Solicitar Orçamento
         </a>
       </div>
     </div>
@@ -213,7 +202,7 @@
 <section id="contato" style="padding: 30px 20px; background: linear-gradient(135deg, #6ee7fc, #00c3ff); color: rgb(0, 0, 0);">
   <!-- ===== Título ===== -->
   <div style="text-align: center; margin-bottom: 40px;"> 
-    <h2 style="font-size: 32px; text-transform: uppercase; letter-spacing: 2px;">Contato</h2>
+    <h2 style="font-size: 32px; text-transform: uppercase; letter-spacing: 2px;">Contato 🎄</h2>
     <p style="font-size: 18px;">Entre em contato conosco e faça seu orçamento</p>
   </div>
    <!-- ANIMAÇÃO DE NEVE -->
@@ -248,7 +237,7 @@
     <textarea id="descricao" rows="5" placeholder="Exemplo: Instalação de 15 tomadas em uma casa grande de 2 andares, troca de 3 disjuntores no quadro de energia, revisão elétrica completa em apartamento pequeno, instalação de chuveiro 220V..."></textarea>
 
     <button type="button" onclick="enviarWhatsApp()">
-      Enviar para WhatsApp
+      Enviar para WhatsApp 🎄
     </button>
   </form>
 </div>
@@ -257,26 +246,122 @@
 
 
 
- <footer>
-  <p>© 2025 FPS Engenharia — Feliz Natal 🎄⛄.</p>
+<!-- ===== Rodapé ===== -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>Acessos rápidos🎁</h3>
+      <ul>
+        <li><a href="#politica">Política de Privacidade</a></li>
+        <p><strong></strong></p>
+      </ul>
+    </div>
 
-  <div class="footer-extra">
+    <div class="footer-section">
+      <h3>Contato🎄</h3>
+      <p><strong></strong></p>
+      <p><strong>E-mail:</strong> fpsengenharia45@gmail.com</p>
+      <p><strong>Endereço:</strong>  – Bahia/Teixeira de Freitas</p>
+    </div>
 
-    <p>💬 Desenvolvido por <strong>Delarsits</strong></p>
-    <p>🔒 Site seguro com <strong>HTTPS</strong></p>
+    <div class="footer-section">
+      <h3>Siga-nos🌟</h3>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/fps.engenharia1"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram"></a>
+        <a href="https://www.linkedin.com/in/fps-engenharia-a16332397/"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LedInink"></a>
+      </div>
+    </div>
   </div>
 
-<footer style="text-align:center; padding:10px;">
-  <a href="politica-de-privacidade.html" target="_blank" style="color:#00aaff; text-decoration:none;">
-    Política de Privacidade
-  </a>
-  |
-  <a href="termos-de-uso.html" target="_blank" style="color:#00aaff; text-decoration:none;">
-    Termos de Uso
-  </a>
+  <div class="footer-bottom">
+    <p>© 2025 A FPS deseja a todos um Feliz Natal 🎄🎁 — Todos os direitos reservados ⚡</p>
+  </div>
 </footer>
 
 
+ <!-- POP-UP DE AVALIAÇÃO FPS ENGENHARIA -->
+<div id="popup-avaliacao" style="
+  display:none;
+  position:fixed;
+  bottom:25px;
+  right:25px;
+  background:#fff;
+  border:2px solid #007bff;
+  border-radius:16px;
+  box-shadow:0 6px 15px rgba(0,0,0,0.25);
+  padding:18px;
+  width:290px;
+  text-align:center;
+  z-index:9999;
+  font-family:'Poppins', sans-serif;
+">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" style="width:90px;margin-bottom:10px;">
+  <h3 style="margin:0;color:#007bff;font-size:18px;">Avalie a FPS Engenharia!</h3>
+  <p style="font-size:14px;color:#333;margin:8px 0 12px;">
+    Sua opinião ajuda nossa empresa a crescer 💙<br>
+    Clique abaixo e deixe sua avaliação no Google!🎄
+  </p>
+  <a href="https://g.page/r/CbxDkQ17Nzm-EAI/review" target="_blank" style="
+    background:#007bff;
+    color:white;
+    padding:10px 16px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+    display:inline-block;
+  ">⭐ Avaliar Agora</a>
+  <p style="font-size:12px;color:#666;margin-top:10px;">FPS Engenharia © 2025</p>
+  <span onclick="document.getElementById('popup-avaliacao').style.display='none';" 
+        style="position:absolute;top:8px;right:12px;cursor:pointer;font-weight:bold;color:#007bff;">✖</span>
+</div>
+
+<div id="cookie-banner" style="position: fixed; bottom: 20px; left: 20px; right: 20px; background: #eef2ff; padding: 20px; border-radius: 10px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1); z-index: 9999;">
+    <div style="color: #333; font-size: 15px;">
+        Este site usa cookies para garantir que você obtenha a melhor experiência em nosso site. 
+        <a href="#" style="color: #1a56db; font-weight: 600; text-decoration: none;">Saiba mais</a>
+    </div>
+
+    <div style="display: flex; gap: 10px;">
+        <button onclick="acceptCookies()" style="padding: 10px 18px; background: #1a56db; color: #fff; border: none; border-radius: 6px; cursor: pointer;">
+            Permitir cookies
+        </button>
+
+        <button style="padding: 10px 18px; background: transparent; border: 2px solid #1a56db; color: #1a56db; border-radius: 6px; cursor: pointer;">
+            Preferências de Cookie
+        </button>
+    </div>
+</div>
+
+<script>
+function acceptCookies() {
+    document.getElementById("cookie-banner").style.display = "none";
+    localStorage.setItem("cookiesAccepted", "true");
+}
+
+window.onload = function() {
+    if (localStorage.getItem("cookiesAccepted") === "true") {
+        document.getElementById("cookie-banner").style.display = "none";
+    }
+}
+</script>
+
+
+<script>
+  // Mostra o pop-up 5 segundos após abrir o site
+  setTimeout(() => {
+    document.getElementById('popup-avaliacao').style.display = 'block';
+  }, 5000);
+</script>
+
+
+
+<script>
+  // Mostra o pop-up 5 segundos após abrir o site
+  setTimeout(() => {
+    document.getElementById('popup-avaliacao').style.display = 'block';
+  }, 5000);
+</script>
 
 
   <script>

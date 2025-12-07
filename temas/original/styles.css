@@ -6,13 +6,15 @@ html, body { height: 100%; }
 
 /* COR DE FUNDO PAGINA 1 */
     :root {
-      --accent:#001aff;
-      --accent-2:#1b0163;
+      
+      --accent:#000000;
+      --accent-2:#00c3ff;
       font-family: Arial, sans-serif;
     }
 
     * { margin:0; padding:0; box-sizing:border-box; }
     html { scroll-behavior:smooth; }
+    
 
 
 
@@ -24,7 +26,7 @@ html, body { height: 100%; }
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #dcdcdc;
+  color: #ff0000;
   text-decoration: none;
   font-size: 18px;
   border-radius: 8px;
@@ -35,7 +37,7 @@ html, body { height: 100%; }
 /* MENU INICIAL BLOQUINHO DELA */
 .menu-item.active {
   background: linear-gradient(180deg, #00f5d4, #00c9a7);
-  color: #031617;
+  color: #160317;
   width: 44px;
   height: 44px;
   box-shadow: 0 8px 18px rgba(0,200,170,0.16);
@@ -76,6 +78,130 @@ html, body { height: 100%; }
   }
 }
 
+/* NOME FPS ENGENHARIA BRILHANTE */
+.brilhante1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  background: linear-gradient(
+    90deg,
+    #000000,
+    #ffffff,
+    #000000,
+    #ffffff,
+    #000000,
+    #ffffff,
+    #000000
+  );
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: brilho 6s infinite linear;
+}
+
+@keyframes brilho {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/* NOME FPS ENGENHARIA BRILHANTE */
+.brilhante2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  background: linear-gradient(
+    90deg,
+    #000000,
+    #ffffff,
+    #000000,
+    #ffffff,
+    #000000,
+    #ffffff,
+    #000000
+  );
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: brilho 6s infinite linear;
+}
+
+@keyframes brilho {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/* NOME FPS ENGENHARIA BRILHANTE */
+.brilhante3 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  background: linear-gradient(
+    90deg,
+    #000000,
+    #424242,
+    #000000,
+    #424242,
+    #000000,
+    #424242,
+    #000000
+  );
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: brilho 6s infinite linear;
+}
+
+@keyframes brilho {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/* NOME FPS ENGENHARIA BRILHANTE */
+.brilhante4 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  background: linear-gradient(
+    90deg,
+    #000000,
+    #ffe600,
+    #000000,
+    #ffe600,
+    #000000,
+    #ffe600,
+    #000000
+  );
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: brilho 0.2s infinite linear;
+}
+
+@keyframes brilho {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
 
      /* POSIÇAO E ESQUELETO DOS NOMES DO MEIO PAGINA 1 */
     header {
@@ -85,7 +211,7 @@ html, body { height: 100%; }
       flex-direction:column;
       justify-content:center;
       align-items:center;
-      color:#fff;
+      color:#ffffff;
       text-align:center;
       position:relative;
     }
@@ -93,7 +219,7 @@ html, body { height: 100%; }
       content:"";
       position:absolute;
       inset:0;
-      background:rgba(0,0,0,0.5);
+      background:rgba(8, 8, 8, 0.5);
     }
     header h1, header p, header a {
       position:relative;
@@ -121,7 +247,7 @@ html, body { height: 100%; }
       transform:translateY(50px);
       transition:all 1s ease;
       background: linear-gradient(135deg, #000000, #00aeff, #000000);
-      color: #fff;
+      color: #ffffff;
     }
     section.show {
       opacity:1;
@@ -132,7 +258,7 @@ html, body { height: 100%; }
 .carrossel { 
     overflow: hidden; 
     width: 100%; 
-    background: linear-gradient(135deg, #ffffff, #00c3ff);
+    background: linear-gradient(135deg, #000000, #00aeff, #000000);
     padding: 20px 0; 
 }
 
@@ -159,13 +285,13 @@ html, body { height: 100%; }
 
     /* ===== HEADER ===== */
     header {
-      height:70vh;
-      background:url('ChatGPT Image 19 de set. de 2025, 18_54_56.png') center/cover no-repeat;
+      height:40vh;
+      background:url('/Consciência\ Negra.png') center/cover no-repeat;
       display:flex;
       flex-direction:column;
       justify-content:center;
       align-items:center;
-      color:#fff;
+      color:#ffffff;
       text-align:center;
       position:relative;
     }
@@ -189,7 +315,7 @@ html, body { height: 100%; }
       text-decoration:none;
     }
 
-    /* ===== SECTIONS ===== PAROU AQUI */
+    /* ===== SECTIONS */
     section {
       min-height:100vh;
       display:flex;
@@ -201,7 +327,7 @@ html, body { height: 100%; }
       transform:translateY(50px);
       transition:all 1s ease;
       background: linear-gradient(135deg, #000000, #00aeff, #000000);
-      color: #fff;
+      color: #ffffff;
     }
     section.show {
       opacity:1;
@@ -249,12 +375,13 @@ html, body { height: 100%; }
     .sobre-texto p {
       margin-bottom: 15px;
       line-height: 1.6;
-      color: #ddd;
+      color: #ffffff;
+      
     }
     .btn-whatsapp {
       display: inline-block;
       background-color: #25D366;
-      color: white;
+      color: rgb(255, 255, 255);
       padding: 12px 25px;
       border-radius: 8px;
       text-decoration: none;
@@ -275,7 +402,7 @@ html, body { height: 100%; }
       text-align: center;
       padding: 20px;
       background: #000;
-      color: #fff;
+      color: #ffffff;
     }
 
     /* ===== RESPONSIVIDADE ===== */
@@ -339,7 +466,7 @@ html, body { height: 100%; }
     width: 100%;
     padding: 12px;
     background: #001aff;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 16px;
     border: none;
     border-radius: 8px;
@@ -382,13 +509,13 @@ html, body { height: 100%; }
 
 @keyframes flicker {
   0% {
-    box-shadow: 0 0 5px #0077ff, 0 0 10px #0026ff, 0 0 20px #0077ff;
+    box-shadow: 0 0 5px #1100ff, 0 0 10px #00b7ff, 0 0 20px #1100ff;
   }
   50% {
-    box-shadow: 0 0 20px #0077ff, 0 0 40px #0026ff, 0 0 60px #0077ff;
+    box-shadow: 0 0 20px #00b7ff, 0 0 40px #1100ff, 0 0 60px #00b7ff;
   }
   100% {
-    box-shadow: 0 0 10px #0026ff, 0 0 30px #0077ff, 0 0 50px #0077ff;
+    box-shadow: 0 0 10px #1100ff, 0 0 30px #00b7ff, 0 0 50px #1100ff;
   }
 }
 
@@ -401,13 +528,13 @@ html, body { height: 100%; }
   padding: 10px;
   margin: 8px 0;
   border-radius: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
 }
 
 /* Botão */
 .electric-border button {
   background: #001aff;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -488,7 +615,7 @@ html, body { height: 100%; }
   font-size: 22px;
   padding: 10px;
   border-radius: 10px;
-  background: linear-gradient(135deg, #000000, #00c3ff); /* degrade do quadrado */
+  background: linear-gradient(135deg, #000000, #00c3ff);
   color: black; /* cor do ícone */
   transition: 0.3s;
 }
@@ -510,14 +637,14 @@ html, body { height: 100%; }
     background: linear-gradient(135deg, #000000, #00c3ff);
     padding: 6px 12px;
     border-radius: 10px;
-    color: #fff;
+    color: #ffffff;
     font-family: Arial, sans-serif;
     font-size: 16px;
   }
 
   .redes-sociais a {
     margin-left: 10px;
-    color: #fff;
+    color: #ffffff;
     font-size: 20px;
     text-decoration: none;
   }
@@ -594,12 +721,12 @@ html, body { height: 100%; }
   border-radius: 12px;
 }
 
-/* Botão fechar */
+/* rodape */
 .close {
   position: absolute;
   top: 30px;
   right: 45px;
-  color: #fff;
+  color: #00aeff;
   font-size: 40px;
   font-weight: bold;
   cursor: pointer;
@@ -607,3 +734,98 @@ html, body { height: 100%; }
 .close:hover {
   color: #aaa;
 }
+
+
+.footer {
+  background: linear-gradient(135deg, #0a1f33, #003366);
+  color: #fff;
+  padding: 50px 20px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  color: #00c3ff;
+  font-size: 1.2rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #00c3ff;
+  text-decoration: underline;
+}
+
+.footer-section p {
+  margin: 5px 0;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  filter: invert(1);
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+  filter: invert(73%) sepia(92%) saturate(2354%) hue-rotate(162deg) brightness(95%) contrast(101%);
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  margin-top: 30px;
+  padding-top: 15px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+
+.logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo-fps {
+  width: 220px;        /* Ajusta o tamanho do logo */
+  max-width: 90%;      /* Para não estourar no celular */
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.4)); /* igual ao efeito da primeira imagem */
+}
+

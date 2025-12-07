@@ -318,6 +318,98 @@
     </div>
 </div>
 
+<!-- ANÚNCIO NATALINO AUTOMÁTICO -->
+<style>
+#avisoNatal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  animation: fadeIn 1s ease;
+}
+
+.aviso-box {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 35px;
+  max-width: 550px;
+  width: 90%;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(0,255,200,0.4);
+  animation: zoomIn 0.8s ease;
+  font-family: Arial, sans-serif;
+}
+
+.aviso-box h1 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #00ffd5;
+}
+
+.aviso-box p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.aviso-box span {
+  display: block;
+  margin-top: 15px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes zoomIn {
+  from {transform: scale(0.7);}
+  to {transform: scale(1);}
+}
+</style>
+
+<div id="avisoNatal">
+  <div class="aviso-box">
+    <h1>🎄 AVISO MUITO IMPORTANTE – ATUALIZAÇÃO DE NATAL 🎄</h1>
+
+    <p>
+      Informamos a todos os nossos clientes e visitantes que hoje, às <b>00h (meia-noite)</b>, 
+      nosso site passará por uma <b>atualização especial de Natal</b> 🎅✨
+    </p>
+
+    <p>
+      Durante esse período, o site poderá ficar temporariamente indisponível, 
+      pois estaremos preparando novidades, melhorias no sistema e um visual totalmente temático 
+      para deixar sua experiência ainda mais mágica!
+    </p>
+
+    <p>
+      Agradecemos pela compreensão e desejamos a todos um <b>Feliz Natal cheio de luz, paz e conquistas!</b> 🎁🎄
+    </p>
+
+    <span>Esse aviso será fechado automaticamente...</span>
+  </div>
+</div>
+
+<script>
+setTimeout(() => {
+  const aviso = document.getElementById("avisoNatal");
+  aviso.style.opacity = "0";
+  aviso.style.transition = "0.8s";
+  setTimeout(() => aviso.style.display = "none", 800);
+}, 10000); // 10 segundos
+</script>
+<!-- FIM DO ANÚNCIO -->
+
+
 <script>
 function acceptCookies() {
     document.getElementById("cookie-banner").style.display = "none";
