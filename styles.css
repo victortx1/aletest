@@ -7,7 +7,7 @@ html, body { height: 100%; }
 /* COR DE FUNDO PAGINA 1 */
     :root {
       
-      --accent:#000000;
+      --accent:#ffffff;
       --accent-2:#00c3ff;
       font-family: Arial, sans-serif;
     }
@@ -36,7 +36,7 @@ html, body { height: 100%; }
 
 /* MENU INICIAL BLOQUINHO DELA */
 .menu-item.active {
-  background: linear-gradient(180deg, #00f5d4, #00c9a7);
+  background: linear-gradient(180deg, #f50000, #00c9a7);
   color: #160317;
   width: 44px;
   height: 44px;
@@ -55,13 +55,13 @@ html, body { height: 100%; }
   margin-top: 50px;
   background: linear-gradient(
     90deg,
-    #0400ff,
-    #00ffff,
-    #0400ff,
-    #00ffff,
-    #0400ff,
-    #00ffff,
-    #0400ff
+    #00d9ff,
+    #ffffff,
+    #00d9ff,
+    #ffffff,
+    #00d9ff,
+    #ffffff,
+    #00d9ff
   );
   background-size: 400% 400%;
   -webkit-background-clip: text;
@@ -86,18 +86,18 @@ html, body { height: 100%; }
   margin-top: 50px;
   background: linear-gradient(
     90deg,
-    #000000,
-    #ffffff,
-    #000000,
-    #ffffff,
-    #000000,
-    #ffffff,
-    #000000
+    #00d9ff,
+    #ff0000,
+    #00d9ff,
+    #ff0000,
+    #00d9ff,
+    #ff0000,
+    #00d9ff
   );
   background-size: 400% 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: brilho 6s infinite linear;
+  animation: brilho 1s infinite linear;
 }
 
 @keyframes brilho {
@@ -219,7 +219,7 @@ html, body { height: 100%; }
       content:"";
       position:absolute;
       inset:0;
-      background:rgba(8, 8, 8, 0.5);
+      background:rgba(255, 0, 0, 0.5);
     }
     header h1, header p, header a {
       position:relative;
@@ -258,7 +258,7 @@ html, body { height: 100%; }
 .carrossel { 
     overflow: hidden; 
     width: 100%; 
-    background: linear-gradient(135deg, #000000, #00aeff, #000000);
+    background: linear-gradient(135deg, #ffffff, #00c3ff);
     padding: 20px 0; 
 }
 
@@ -286,7 +286,7 @@ html, body { height: 100%; }
     /* ===== HEADER ===== */
     header {
       height:40vh;
-      background:url('/Consciência\ Negra.png') center/cover no-repeat;
+      background:url('./fpslogonatal.png') center/cover no-repeat;
       display:flex;
       flex-direction:column;
       justify-content:center;
@@ -309,7 +309,7 @@ html, body { height: 100%; }
     header p { margin-bottom:20px; font-size: 1.2rem; }
     header a {
       background:linear-gradient(90deg,var(--accent),var(--accent-2));
-      color:#ffffff;
+      color:#000000;
       padding:10px 20px;
       border-radius:6px;
       text-decoration:none;
@@ -326,7 +326,7 @@ html, body { height: 100%; }
       opacity:0;
       transform:translateY(50px);
       transition:all 1s ease;
-      background: linear-gradient(135deg, #000000, #00aeff, #000000);
+      background: linear-gradient(135deg, #ffffff, #00c3ff);
       color: #ffffff;
     }
     section.show {
@@ -370,17 +370,17 @@ html, body { height: 100%; }
     .sobre-texto h2 {
       font-size: 2rem;
       margin-bottom: 20px;
-      color: #00c3ff;
+      color: #2f00ff;
     }
     .sobre-texto p {
       margin-bottom: 15px;
       line-height: 1.6;
-      color: #ffffff;
+      color: #000000;
       
     }
     .btn-whatsapp {
       display: inline-block;
-      background-color: #25D366;
+      background-color: #000000;
       color: rgb(255, 255, 255);
       padding: 12px 25px;
       border-radius: 8px;
@@ -426,7 +426,7 @@ html, body { height: 100%; }
     /* ===== SERVIÇOS CALC ===== */
       .form-container {
     max-width: 400px;
-    background: #ffffff;
+    background: #3500f3;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
@@ -437,7 +437,7 @@ html, body { height: 100%; }
   .form-container h2 {
     text-align: center;
     margin-bottom: 15px;
-    color: #001aff; /* cor destaque da FPS */
+    color: #ff0000; /* cor destaque da FPS */
   }
 
   .form-container label {
@@ -465,8 +465,8 @@ html, body { height: 100%; }
   .form-container button {
     width: 100%;
     padding: 12px;
-    background: #001aff;
-    color: rgb(255, 255, 255);
+    background: #00f7ff;
+    color: rgb(0, 225, 255);
     font-size: 16px;
     border: none;
     border-radius: 8px;
@@ -533,8 +533,8 @@ html, body { height: 100%; }
 
 /* Botão */
 .electric-border button {
-  background: #001aff;
-  color: rgb(255, 255, 255);
+  background: #00ffff;
+  color: rgb(0, 0, 0);
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -542,15 +542,15 @@ html, body { height: 100%; }
 }
 
 .electric-border button:hover {
-  background: #0044ff;
-  box-shadow: 0 0 10px #00e5ff, 0 0 20px #0077ff;
+  background: #ffffff;
+  box-shadow: 0 0 10px #f8f8f8, 0 0 20px #080202;
 }
 
 /* Estilos para a seção de vídeo */
 .video {
   text-align: center;
   padding: 60px 20px;
-  background: linear-gradient(135deg, #000000, rgb(0, 140, 255));
+  background: linear-gradient(135deg, #ffffff, #00c3ff);
 }
 
 .video h1.brilhante {
@@ -565,7 +565,7 @@ html, body { height: 100%; }
 /* Estilos para a seção da galeria */
 .galeria-fotos {
   padding: 60px 20px;
-  background: linear-gradient(135deg, #000000, rgb(0, 195, 255));
+  background: linear-gradient(135deg, #ffffff, #00c3ff);
 }
 
 .galeria-fotos h2 {
@@ -615,7 +615,7 @@ html, body { height: 100%; }
   font-size: 22px;
   padding: 10px;
   border-radius: 10px;
-  background: linear-gradient(135deg, #000000, #00c3ff);
+  background: linear-gradient(135deg, #ffffff, #00c3ff);
   color: black; /* cor do ícone */
   transition: 0.3s;
 }
@@ -634,17 +634,17 @@ html, body { height: 100%; }
   .redes-sociais {
     display: inline-flex;
     align-items: center;
-    background: linear-gradient(135deg, #000000, #00c3ff);
+    background: linear-gradient(135deg, #ffffff, #00c3ff);
     padding: 6px 12px;
     border-radius: 10px;
-    color: #ffffff;
+    color: #000000;
     font-family: Arial, sans-serif;
     font-size: 16px;
   }
 
   .redes-sociais a {
     margin-left: 10px;
-    color: #ffffff;
+    color: #000000;
     font-size: 20px;
     text-decoration: none;
   }
@@ -719,6 +719,93 @@ html, body { height: 100%; }
   max-width: 80%;
   max-height: 80vh;
   border-radius: 12px;
+}
+
+/* Botão fechar */
+.close {
+  position: absolute;
+  top: 30px;
+  right: 45px;
+  color: #00aeff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.close:hover {
+  color: #aaa;
+}
+
+
+.titulo-natal {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.chapeu-natal {
+  position: absolute;
+  top: -90px; /* sobe o chapéu */
+  left: 55%; /* centraliza um pouco mais pra direita */
+  width: 80px; /* tamanho no PC */
+  transform: rotate(-20deg);
+}
+
+/* --- Versão MOBILE --- */
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 1.6rem;
+  }
+
+  .chapeu-natal {
+    top: -25px;
+    left: 60%;
+    width: 45px;
+  }
+}
+
+
+
+/* 🎅 Papai Noel mexendo a mão */
+.natal-papai {
+  position: absolute;
+  left: 0;
+  top: 240px;
+  width: 120px;
+  z-index: 120;
+  animation: mao 2.5s ease-in-out infinite;
+}
+@keyframes mao {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(4deg); }
+}
+
+/* ☃️ Boneco de neve com luzes piscando */
+.boneco-luz {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  width: 260px;
+  height: 320px;
+  border-radius: 50%;
+  filter: blur(25px);
+  animation: piscar 1.2s infinite alternate;
+  z-index: 9;
+}
+
+
+/* ✨ Boneco com brilho */
+.natal-boneco {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  width: 100px;
+  z-index: 1;
 }
 
 /* rodape */
@@ -828,4 +915,3 @@ html, body { height: 100%; }
   object-fit: contain;
   filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.4)); /* igual ao efeito da primeira imagem */
 }
-
